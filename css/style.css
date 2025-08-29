@@ -1,3 +1,10 @@
 body{
     background-color: #eea4a3;
+    text-align: center;
+}
+.des{
+    height: 200px;
+}
+input{
+    text-align: center;
 }
