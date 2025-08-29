@@ -1,6 +1,6 @@
 <footer>
     <p>Todos os direitos Reservados</p>
-    <address>KingCake</address>
+    <address>KingCake@email.com</address>
 </footer>
 </body>
 </html>
