@@ -5,7 +5,7 @@ include __DIR__.'/includes/header.php';
 <form action="" method="post">
     <input type="text" name="nome" placeholder="Nome" style="width: 800px"><br>
     <input type="email" name="email" placeholder="Email" style="width: 800px"><br>
-    <input type="text" name="descricao" placeholder="Descrição" style="width: 800px" class="des"><br>
+    <input type="text" name="descricao" placeholder="Descrição" style="width: 800px; height: 200px"><br>
     <input type="submit">
 </form>
 <?php
