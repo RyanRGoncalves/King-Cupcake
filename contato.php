@@ -25,6 +25,7 @@ include __DIR__.'/includes/header.php';
             <strong>📍 Endereço:</strong>
             <?php echo $endereco; ?>
         </div>
+        <a href="form.php">contate-nos</a>
     </div>
 
 <?php

@@ -7,4 +7,4 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color: #ffffff; background-color: #792b39; display: line; font-size: 50px">KING CAKES</h1>
+    <h1 style="color: #ffffff; background-color: #792b39; font-size: 50px">KING CAKES</h1>
