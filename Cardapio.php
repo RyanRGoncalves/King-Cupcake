@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cardápio</title>
-</head>
-<body>
-    <div class="CorFundo">
+<?php
+include __DIR__.'/includes/header.php';
+?>
+    <div>
     <h1>O melhor lugar para compra cupcake</h1>
     <h2>Morango</h2>
     <p>Massa de chocolate ou baunilha com recheio e cobertura de brigadeiro de morango.</p>
@@ -39,16 +34,7 @@
     <h2>Limão</h2>
     <p>Massa de limão, recheio de Lemon Curd (creme azedinho de limão) <br>
      e cobertura de brigadeiro ou merengue.</p>
-
-
-
-
-
-
     </div>
-    
-
-
-    <link rel="stylesheet" href="CorFundo.css">
-</body>
-</html>
+<?php
+include __DIR__.'/includes/footer.php'
+?>
