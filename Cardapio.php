@@ -1,6 +1,6 @@
 <?php
 include __DIR__.'/includes/header.php';
-?>
+?>    
     <div>
     <h1>O melhor lugar para compra cupcake</h1>
     <h2>Morango</h2>
