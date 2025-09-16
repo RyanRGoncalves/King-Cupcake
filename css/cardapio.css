@@ -1,4 +1,22 @@
-body{
-    background-color: #eea4a3;
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
-
+h2{
+    display: block;
+}
+main > div{
+    background-color: #792b39;
+    border-radius: 15px;
+    margin: 20px 2px 0px;
+    width: 300px;
+}
+main > div > *{
+    color: #ffffff;
+}
+main > div > input{
+    color: #000000;
+    width:20px;
+}

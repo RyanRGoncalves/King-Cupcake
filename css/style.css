@@ -37,3 +37,15 @@ header > nav > *{
 header > nav > a:hover{
     text-decoration: underline;
 }
+.hlcart{
+    display: inline;
+    background-color: #792b39;
+    border: #792b39;
+    color: #ffffff; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.hlcart:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

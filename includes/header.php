@@ -14,8 +14,8 @@
         </nav>
         <script>
             nav = document.querySelector('nav')
+            nav.innerHTML += (!window.location.href.includes("index.php")) ? '<a href="index.php">Pagina Inicial</a>' : '<b>Pagina inicial</b>'
             nav.innerHTML += (!window.location.href.includes("cardapio.php")) ? '<a href="cardapio.php">Cardapio</a>' : '<b>Cardapio</b>'
-            nav.innerHTML += (!window.location.href.includes("carrinho.php")) ? '<a href="carrinho.php">Carrinho</a>' : '<b>Cardapio</b>'
-            nav.innerHTML += (!window.location.href.includes("contato.php")) ? '<a href="contato.php">Contatos</a>' : '<b>Cardapio</b>'
+            nav.innerHTML += (!window.location.href.includes("contato.php")) ? '<a href="contato.php">Contatos</a>' : '<b>Contato</b>'
         </script>
     </header>
