@@ -1,6 +1,7 @@
 <?php
 include __DIR__.'/includes/header.php';
 ?>
+<link rel="stylesheet" href="css/contato.css">
 <div class="container">
     
  <h1 style="color: white; font-size: 40px">Contate-nos</h1>
@@ -10,22 +11,22 @@ include __DIR__.'/includes/header.php';
  $endereco = "Rua Marajoara, 123 - Bairro Centro, São Paulo - SP, CEP 01234-567";
  ?>  
     <form method="post">
-    <input type="text" name="nome" placeholder="Nome" style="width: 800px; height: 20px"><br>
-    <input type="email" name="email" placeholder="Email" style="width: 800px; height: 20px"><br>
-    <input type="text" name="descricao" placeholder="Descrição" style="width: 800px; height: 300px"><br>
-    <input type="submit" style="width: 100px">
+        <input type="text" name="nome" placeholder="Nome" style="height: 20px"><br>
+        <input type="email" name="email" placeholder="Email" style="height: 20px"><br>
+        <input type="text" name="descricao" placeholder="Descrição" style="height: 300px"><br>
+        <input type="submit" style="width: 100px">
     </form><br>
     
     <div class="contato-item">
-        <strong>📞 Telefone:</strong>
+        <strong>📞Telefone: </strong>
         <?php echo $telefone; ?>
     </div>
     <div class="contato-item">
-        <strong>📧 E-mail:</strong>
+        <strong>📧E-mail:</strong>
         <?php echo $email; ?>
     </div>
     <div class="contato-item">
-        <strong>📍 Endereço:</strong>
+        <strong>📍Endereço:</strong>
         <?php echo $endereco; ?>
     </div>
 </div>
