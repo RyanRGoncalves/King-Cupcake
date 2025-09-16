@@ -7,4 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color: #ffffff; background-color: #792b39; font-size: 50px">KING CAKES</h1>
+    <header>
+        <h1 style="font-size: 40px">KING CAKES</h1>
+
+        <nav style="justify-self: center">
+        </nav>
+        <script>
+            nav = document.querySelector('nav')
+            nav.innerHTML += (!window.location.href.includes("cardapio.php")) ? '<a href="cardapio.php">Cardapio</a>' : '<b>Cardapio</b>'
+            nav.innerHTML += (!window.location.href.includes("carrinho.php")) ? '<a href="carrinho.php">Carrinho</a>' : '<b>Cardapio</b>'
+            nav.innerHTML += (!window.location.href.includes("contato.php")) ? '<a href="contato.php">Contatos</a>' : '<b>Cardapio</b>'
+        </script>
+    </header>

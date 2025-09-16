@@ -5,17 +5,14 @@ include __DIR__.'/includes/header.php';
     <h1>O melhor lugar para compra cupcake</h1>
     <h2>Morango</h2>
     <p>Massa de chocolate ou baunilha com recheio e cobertura de brigadeiro de morango.</p>
-    <img src="MorangoC.jpg" alt="Cupcake de morango">
     <h2>Chocolate</h2>
     <p>Massa de chocolate com recheio de chocolate fudge (calda meio amarga deliciosa)<br>
      e cobertura de brigadeiro com chocolate em cubinhos. 
      3 versões de cubinhos de chocolate: preto (ao leite), branco com cookies<br>
      e mesclado: branco e preto juntos.</p>
-     <img src="ChocolateC.jpg" alt="Cupcake de Chocolate">
     <h2>Leite Ninho</h2>
     <p>Massa de ovomaltine, recheio de Leite Ninho e toque de Nutella
      com cobertura de brigadeiro branco.</p>
-     <img src="Leite NinhoC.jpg" alt="Cupcake de Leite ninho">
     <h2>Baunilha</h2>
     <p>Massa de baunilha, recheio de brigadeiro branco e cobertura de glacê de baunilha.</p>
     <h2>Prestígio</h2>

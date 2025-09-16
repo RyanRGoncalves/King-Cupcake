@@ -19,3 +19,21 @@ footer > *{
     color: #ffffff;
     text-align: center;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #792b39
+}
+header > h1{
+    color: #ffffff; 
+    margin: 0 10px;
+}
+header > nav > *{
+    color: #ffffff; 
+    text-decoration: none;
+    margin: 0 5px;
+}
+header > nav > a:hover{
+    text-decoration: underline;
+}
