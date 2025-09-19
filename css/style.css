@@ -49,3 +49,15 @@ header > nav > a:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, label, a, b{
+    font-family: "Permanent Marker";
+}
+p, address{
+    font-family: monospace;
+}

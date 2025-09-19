@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <style>
+        body{
+             background-image: url('imagens/lojinha.jpg');
+            background-repeat: no-repeat;
+             background-attachment: fixed;
+          background-size: 100% 100%;
+             }
+    </style>
 </head>
 <body>
 <link rel="stylesheet" href="css/index.css">
@@ -21,7 +29,7 @@ Baunilha;
     
     <div>
         <h2>Introdução</h2>
-        <p>Somos um pequeno grupo criando Cupcakes para a população! </p>
+        <p>Somos um pequeno grupo criando Cupcakes para a população!</p>
     </div>
     
     <div>
