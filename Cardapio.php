@@ -50,13 +50,13 @@ include __DIR__.'/includes/header.php';
     <div>
         <h2>Brigadeiro</h2>
         <img src="imagens/brigadeiro.jpg" alt="">
-        <p>Massa de chocolate com recheio e cobertura de brigadeiro.</p>
+        <p>Massa de chocolate com recheio e cobertura de brigadeiro.</p><br>
         <label>Adicionar </label><input type="text" name="Brigadeiro"><label> ao carrinho</label>
     </div>
     <div>
         <h2>Beijinho</h2>
         <img src="imagens/beijinho.jpg" alt="">
-        <p>Massa de baunilha com recheio e cobertura de beijinho de coco.</p>
+        <p>Massa de baunilha com recheio e cobertura de beijinho de coco.</p><br>
         <label>Adicionar </label><input type="text" name="Beijinho"><label> ao carrinho</label>
     </div>
     <div>
